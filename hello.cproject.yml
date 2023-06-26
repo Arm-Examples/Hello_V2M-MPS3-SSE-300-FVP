@@ -1,0 +1,23 @@
+project:
+
+  groups:
+    - group: Documentation
+      files:
+        - file: README.md
+    - group: Application
+      files:
+        - file: hello.c
+    - group: Board
+      files:
+        - file: main.c
+
+  components:
+    - component: CMSIS:CORE
+    - component: CMSIS:RTOS2:Keil RTX5&Source
+
+    - component: Device:Startup&Baremetal
+
+    - component: ARM::Device:Definition
+    - component: ARM::Native Driver:SysCounter
+    - component: ARM::Native Driver:SysTimer
+    - component: ARM::Native Driver:Timeout
