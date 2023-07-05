@@ -3,6 +3,8 @@
 Simple Hello World example for Arm V2M-MPS3 Board with Corstone SSE-300 Subsystem. The example can execute also on Arm Virtual Hardware (AVH) modeling the hardware. 
 This example prints "Hello World" and a counter value via the standard output.
 
+[![Keil Studio Cloud - Import Project](https://img.shields.io/badge/Keil_Studio_Cloud-Import_Project-0091bd?logo=arm&logoColor=0091bd)](https://studio.keil.arm.com/?import=https://github.com/Arm-Examples/Hello_V2M-MPS3-SSE-300-FVP.git)
+
 ## Prerequisites
 
 ### Tools:
