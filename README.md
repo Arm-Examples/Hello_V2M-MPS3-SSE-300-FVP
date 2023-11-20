@@ -44,7 +44,7 @@ cbuild hello.csolution.yml
 
 Run the project by executing the following command:
 ```sh
-VHT_MPS3_Corstone_SSE-300 -f vht_config.txt -a out/hello/V2M-MPS3-SSE-300-FVP/Debug/hello.axf --simlimit 20
+FVP_Corstone_SSE-300 -f vht_config.txt -a out/hello/V2M-MPS3-SSE-300-FVP/Debug/hello.axf --simlimit 20
 ```
 
 Note that AVH is only available on Windows PCs and Linux machines.
