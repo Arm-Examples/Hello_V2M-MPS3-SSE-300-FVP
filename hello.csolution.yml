@@ -1,15 +1,18 @@
 solution:
   description: Simple Hello World example for V2M-MPS3-SSE-300-FVP
   created-for: CMSIS-Toolbox@2.0.0
+  cdefault: 
   compiler: AC6
 
+  # List the packs that define the device and/or board.
   packs:
-    - pack: ARM::CMSIS@5.9.0
-    - pack: ARM::V2M_MPS3_SSE_300_BSP@1.3.0
+    - pack: ARM::V2M_MPS3_SSE_300_BSP@1.5.0
+    - pack: ARM::CMSIS@6.0.0
 
   target-types:
     - type: V2M-MPS3-SSE-300-FVP
       board: ARM::V2M-MPS3-SSE-300-FVP
+      device: ARM::SSE-300-MPS3
 
   build-types:
     - type: Debug

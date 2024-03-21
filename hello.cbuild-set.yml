@@ -1,0 +1,4 @@
+cbuild-set:
+  generated-by: csolution version 2.2.1
+  contexts:
+    - context: hello.Debug+V2M-MPS3-SSE-300-FVP
