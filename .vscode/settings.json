@@ -4,7 +4,8 @@
             "path": "hello.csolution.yml",
             "target": "V2M-MPS3-SSE-300-FVP",
             "config": {
-                "debug": "Arm Debugger FVP"
+                "debug": "Arm Debugger FVP",
+                "run": "virtual-hardware.run: Run Program"
             }
         }
     ]
