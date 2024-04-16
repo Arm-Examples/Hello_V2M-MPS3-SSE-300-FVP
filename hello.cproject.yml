@@ -11,6 +11,10 @@ project:
       files:
         - file: main.c
 
+  linker:
+    -  script: ./RTE/Device/SSE-300-MPS3/fvp_sse300_mps3_s.sct
+       for-compiler: AC6
+
   components:
     - component: ARM::CMSIS:CORE
     - component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.8.0
