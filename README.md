@@ -4,7 +4,7 @@ This is a simple "Hello World" example for the Arm V2M-MPS3 board with a Corston
 
 [![Keil Studio Cloud - Import Project](https://img.shields.io/badge/Keil_Studio_Cloud-Import_Project-0091bd?logo=arm&logoColor=0091bd)](https://studio.keil.arm.com/?import=https://github.com/Arm-Examples/Hello_V2M-MPS3-SSE-300-FVP.git)
 [![example workflow](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_V2M-MPS3-SSE-300-FVP/ci.yml?logo=arm&logoColor=0091bd&label=Example%20Publishable)](https://www.keil.arm.com/)
-[![CMSIS Compliance](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_V2M-MPS3-SSE-300-FVP/ci.yml?logo=arm&logoColor=0091bd&label=CMSIS%20Compliance)](https://www.keil.arm.com/cmsis)
+[![CMSIS Compliance](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Hello_V2M-MPS3-SSE-300-FVP/verify.yml?logo=arm&logoColor=0091bd&label=CMSIS%20Compliance)](https://www.keil.arm.com/cmsis)
 
 ## Arm Tools Artifactory
 
